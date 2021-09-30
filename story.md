@@ -10,6 +10,7 @@ Following the guidance from StratoStar, we reviewed previous experiments and cad
 
 The sensor in our package was an AS7341 by AMS that [Adafruit](https://adafruit.com) has on a [breakout board](https://www.adafruit.com/product/4698).  The sensor is a "multi-channel spectrometer which is a special type of light sensor that is able to detect not only the amount of light present, but also the amounts of light within different wavelengths. The AS7341 packs ... 16 different sensors that can detect 8 separate, overlapping bands of colored light."
 
+![The Beads under UV Light](Images/beads-under-uv.jpg "The Beads under UV Light")
 We were flying the [UV sensitive beads](https://www.amazon.com/dp/B01H38O6Y2) like those used in previous flights with StratoStar.  After the cadets experimented with the beads at our squadron - with a regular flashlight and a UV flashlight - they came up with the hypothesis that, as the balloon went up, the amount of UV light would increase causing the beads to become more opaque - blocking the sensor and lowering the light values observed.  
 
 Some of our cadets that were specifically interested in the Circuit Python code used and we went over the code line-by-line at a squadron meeting (probably putting 80% of the room to sleep but for the other 20%, it was awesome.)  
