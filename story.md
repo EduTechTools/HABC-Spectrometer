@@ -24,6 +24,7 @@ Finally, how to power the project? With a 40g limit, weight was our enemy.  [Oak
 Because we were flying a second experiment (involving eyes of potatoes that didn’t go well and we won’t speak of again), we couldn’t have a very large LiPo battery. We don’t know if it was the delay between charging it here in Tucson and flying the experiment, or if the mAh available was just too small, but we only captured 55 minutes of data.  The [code](Code/flight_code.py) captured the sensor values every 10 seconds during the flight and stored it to the FRAM.  When the package is powered up, it sleeps for 60 seconds to give time to set up recording the data dump.  Then it dumps the data and sleeps again for 30 seconds before entering the loop to record data every 10 seconds.  All of these delays are to ensure that we don't overwrite the data captured on flight when it comes time to read the FRAM.  I was nervous when I saw that the switch was actually above the height of the package on the balloon.  I didn’t know if it would be accidentally cycled when it returned to the ground, overwriting our data!  (So having the battery dead actually worked in our favor). 
 
 ## The Flight Data and What We Learned
+![The Flight Capsule](Images/Flight_Capsule.jpg)
 
 All of our [data is available](https://docs.google.com/spreadsheets/d/17e2CX1ekGO7Oqu9oj_XttCmlho-aXPk1/edit?usp=sharing&ouid=112217039803762428116&rtpof=true&sd=true)
 
