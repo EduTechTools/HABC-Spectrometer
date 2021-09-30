@@ -15,4 +15,4 @@ The electronics and code flown as part of the 2021 Civil Air Patrol High Altitud
 * [Capsule Flight Data](https://docs.google.com/spreadsheets/d/17e2CX1ekGO7Oqu9oj_XttCmlho-aXPk1/edit?usp=sharing&ouid=112217039803762428116&rtpof=true&sd=true)
 
 ## All the details
-The story of the development and analysis of this high altitude balloon experiment are in the file: story.md
+The story of the development and analysis of this high altitude balloon experiment are in the file: [story.md](story.md)
